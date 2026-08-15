@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KY | Portfolio</title>
+  <meta name="description" content="Personal portfolio of KY — developer building things with code & AI.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="KY | Portfolio">
+  <meta property="og:description" content="Personal portfolio of KY — developer building things with code & AI.">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="KY | Portfolio">
+  <meta name="twitter:description" content="Personal portfolio of KY — developer building things with code & AI.">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23FFD93D'/%3E%3Crect x='6' y='6' width='88' height='88' fill='none' stroke='%23111' stroke-width='8'/%3E%3Ctext x='50' y='68' font-family='monospace' font-size='48' font-weight='700' fill='%23111' text-anchor='middle'%3EKY%3C/text%3E%3C/svg%3E">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Devicon: real technology icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.15.1/devicon.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#" class="navbar__logo" aria-label="KY — back to top">KY<span class="navbar__logo-dot">.</span></a>
+
+      <nav class="navbar__nav" aria-label="Primary">
+        <ul class="navbar__links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="mobileMenu">
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile" data-open="false">
+      <ul class="mobile-menu__list">
+        <li><a href="#about" class="mobile-menu__link">About</a></li>
+        <li><a href="#skills" class="mobile-menu__link">Skills</a></li>
+        <li><a href="#projects" class="mobile-menu__link">Projects</a></li>
+        <li><a href="#contact" class="mobile-menu__link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero" aria-label="Introduction">
+      <div class="hero__inner">
+        <div class="hero__content">
+          <p class="eyebrow">HELLO, I'M KY <span class="eyebrow__star">✦</span></p>
+          <h1 class="hero__title">
+            I BUILD THINGS WITH <span class="highlight highlight--blue">CODE</span>
+            &amp; <span class="highlight highlight--yellow">AI</span>.
+          </h1>
+          <p class="hero__intro">
+            Developer who likes taking ideas apart to see how they work, then
+            putting them back together as something that actually ships.
+            Currently deep in Python, Flask, and applied AI.
+          </p>
+          <div class="hero__cta">
+            <a href="#projects" class="button button--primary">VIEW PROJECTS</a>
+            <a href="#contact" class="button button--outline">CONTACT ME</a>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <div class="hero__frame">
+            <img src="assets/profile/profile.jpg" alt="Portrait illustration of KY" width="480" height="480">
+          </div>
+          <span class="deco deco--plus" aria-hidden="true">+</span>
+          <span class="deco deco--circle" aria-hidden="true">●</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <div class="section__inner">
+        <p class="section__eyebrow">01 / ABOUT</p>
+        <div class="about__grid">
+          <h2 class="section__title" id="about-heading">ABOUT ME</h2>
+          <div class="card about__card">
+            <p>
+              I'm KY, a developer focused on building small, useful tools rather
+              than chasing every framework of the month. My background is in
+              Python and the web fundamentals — HTML, CSS, and JavaScript —
+              and I've been spending most of my recent time exploring how AI
+              fits into everyday tooling.
+            </p>
+            <p>
+              Outside of code, I'm into Linux, keyboard tinkering, and reading
+              way too many changelogs. Right now I'm focused on shipping
+              small AI-powered projects end to end: idea, build, deploy, repeat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section--alt" id="skills" aria-labelledby="skills-heading">
+      <div class="section__inner">
+        <p class="section__eyebrow">02 / SKILLS</p>
+        <h2 class="section__title" id="skills-heading">WHAT I WORK WITH</h2>
+        <ul class="skills__grid" id="skillsGrid" aria-label="Technical skills">
+          <!-- rendered by main.js -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects" aria-labelledby="projects-heading">
+      <div class="section__inner">
+        <p class="section__eyebrow">03 / PROJECTS</p>
+        <h2 class="section__title" id="projects-heading">SELECTED PROJECTS</h2>
+        <div class="projects__grid" id="projectsGrid" aria-label="Project list">
+          <!-- rendered by main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+      <div class="section__inner">
+        <p class="section__eyebrow">04 / CONTACT</p>
+        <div class="contact__panel">
+          <h2 class="contact__title" id="contact-heading">LET'S BUILD SOMETHING.</h2>
+          <p class="contact__text">Have an idea, a bug, or just want to talk shop? Let's talk.</p>
+          <div class="contact__links">
+            <a class="button button--dark" href="https://github.com/" target="_blank" rel="noopener noreferrer">GITHUB</a>
+            <a class="button button--dark" href="https://discord.com/" target="_blank" rel="noopener noreferrer">DISCORD</a>
+            <a class="button button--dark" href="https://instagram.com/" target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <p>© 2026 KY</p>
+      <p>Built with HTML, CSS &amp; Vanilla JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
