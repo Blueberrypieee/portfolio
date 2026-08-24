@@ -25,7 +25,7 @@ const projects = [
     demo: 'https://trackfinance.pythonanywhere.com/'
   },
   {
-    name: 'Project 03',
+    name: 'Lumina Restaurant',
     image: 'assets/projects/project-03.jpg',
     description: 'Lumina Restaurant — A premium fine-dining landing page featuring a modern and aesthetic, responsive layout, elegant animations, and a cinematic hero section. Built with HTML, CSS, and Vanilla JavaScript.',
     status: 'available',
