@@ -26,12 +26,12 @@ const projects = [
   },
   {
     name: 'Project 03',
-    image: 'assets/projects/project-03.svg',
-    description: 'Something is cooking.',
-    status: 'coming-soon',
-    tags: [],
-    github: '',
-    demo: ''
+    image: 'assets/projects/project-03.jpg',
+    description: 'Lumina Restaurant — A premium fine-dining landing page featuring a modern and aesthetic, responsive layout, elegant animations, and a cinematic hero section. Built with HTML, CSS, and Vanilla JavaScript.',
+    status: 'available',
+    tags: ['HTML', 'CSS', 'Vanilla JS'],
+    github: 'https://github.com/Blueberrypieee/Lumina-Restaurant',
+    demo: 'https://blueberrypieee.github.io/Lumina-Restaurant/'
   },
   {
     name: 'Project 04',
@@ -248,4 +248,3 @@ document.addEventListener('DOMContentLoaded', () => {
   initSmoothNav();
   initNavbarShadowOnScroll();
 });
-
